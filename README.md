@@ -24,3 +24,18 @@ When treating the YOLOV5 model as the target model, the FDA pattern obtained an 
 In the setting of clothing attack, the FDA pattern has also obtained an average ASR of 76% (in the front and back view), outperforming the baseline method (TCA) by 39%.
 ![alt text](https://github.com/zhicheng2T0/Full-Distance-Attack/blob/main/image4.PNG)
 
+# Citation
+
+If you find our work to be useful for your research, please consider citing:
+
+      @InProceedings{Hu_2023_CVPR,
+          author    = {Cheng, Zhi and Hu, Zhanhao and Liu, Yuqiu and Li, Jianmin and Su, Hang and Hu, Xiaolin},
+          title     = {Full-Distance Evasion of Pedestrian Detectors in the Physical World},
+          booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+          month     = {November},
+          year      = {2024}
+      }
+
+# Setup Environment
+
+
