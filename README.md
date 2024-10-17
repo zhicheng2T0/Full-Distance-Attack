@@ -190,3 +190,22 @@ If you are trying to attack a new target model and you find the average ASR to b
 There also exist some models that have a large amount of local minimums (e.g. DETR and deformable DETR). If you wish to avoid those local minimums, we would recommend you try to set different adversarial patterns as starting points and continue optimzing those patterns against your target model.
 
 We have also found it important to tune the balance_limits parameter for different models.
+
+
+## License
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+### You are free to:
+- **Share**: copy and redistribute the material in any medium or format.
+- **Adapt**: remix, transform, and build upon the material.
+
+### Under the following terms:
+- **Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- **Non-Commercial**: You may not use the material for commercial purposes.
+- **ShareAlike**: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+For more information, please refer to the [license deed](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
