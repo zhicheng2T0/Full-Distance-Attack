@@ -13,3 +13,11 @@ In this study, we find the cause for existing attack methods to fail at medium t
 
 To solve this problem, we propose a Distant Image Converter (DIC) to convert images of short-distance objects into an appearance similar to their physical world counterparts at long distances. In DIC, We find it necessary to simulate three factors in the physical world that contribute to the appearance gap. These factors include the effect of atmospheric perspective which changes object colors due to increasing scattering of light as distance increases, the effect of camera hardware which blurs the field of light projected from the target object to form a digital image, and the effect of the default effect filters commonly installed in digital cameras which change the color and texture details of the captured images for better visual appearances. The DIC is illustrted in the figure below.
 ![alt text](https://github.com/zhicheng2T0/Full-Distance-Attack/blob/main/image2.PNG)
+
+By applying the DIC during optimization, we found that different low frequency patterns were required at short and long distances, causing a conflict, hindering full distance attack (FDA) pattern optimization. To overcome the difficulty, we propose a Multi-Frequency Optimization (MFO) technique. By combining DIC and MFO, we form the FDA method which generates effective adversarial patterns for evading pedestrian detectors at varying distances.
+
+# Key Results
+
+When treating the YOLOV5 model as the target model, the FDA pattern obtained an average ASR of 74%, outperforming the baseline method (Adv-T.) by 52%.
+![alt text](https://github.com/zhicheng2T0/Full-Distance-Attack/blob/main/image3.PNG)
+
