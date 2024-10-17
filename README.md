@@ -21,3 +21,6 @@ By applying the DIC during optimization, we found that different low frequency p
 When treating the YOLOV5 model as the target model, the FDA pattern obtained an average ASR of 74%, outperforming the baseline method (Adv-T.) by 52%.
 ![alt text](https://github.com/zhicheng2T0/Full-Distance-Attack/blob/main/image3.PNG)
 
+In the setting of clothing attack, the FDA pattern has also obtained an average ASR of 76% (in the front and back view), outperforming the baseline method (TCA) by 39%.
+![alt text](https://github.com/zhicheng2T0/Full-Distance-Attack/blob/main/image4.PNG)
+
