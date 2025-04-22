@@ -53,7 +53,7 @@ Install mmcv-full-1.7.0:
 
 Install other packages imported with pip
 
-Download the files provided in 
+Download the files provided in (if you can't get access to it, please contact us through email)
 
       https://drive.google.com/drive/folders/1ZsRN7ke8z2-q9aigZsAWQK4irEausvlH?usp=drive_link
 
@@ -115,6 +115,8 @@ In create_json.py, replace /data/chengzhi/adversarial_cloth with the current adv
       python create_json.py
 
 Replace /data/chengzhi/adversarial_cloth in adversarial_cloth_patch/configs/_base_/datasets/inria_3090.py with the current adversarial_cloth_patch directory.
+
+Download the models folder from https://github.com/SamSamhuns/yolov5_adversarial and place it into the adversarial_cloth_patch folder
 
 # Optimize Color Mapping Function
 
