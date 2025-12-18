@@ -39,7 +39,7 @@ If you find our work to be useful for your research, please consider citing:
 # Setup the Environment
 
 
-We recommend using CUDA11.8, python 3.9.18
+We recommend using CUDA11.8, python 3.9.18 (for the version of packages used, please refer to the zhi_env_p39_export.yml file uploaded)
 
 Install mmdetection: 
 
